@@ -1,0 +1,284 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+
+    .main-nav{margin-top: -3%;}
+    .work-text-box{font-size: 70%;
+        text-align: justify;
+    }
+    .work-text-box-2{font-size: 70%;
+        text-align: justify;
+    }
+    .work-img{width: 46%;}
+
+    .staff-icons{
+        font-size: 220%;
+    }
+    .staff-features{
+        font-size: 220%;
+    }
+
+    .staff-features span{
+        font-size: 38%;
+        margin-right: 70px;
+    }
+    
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    
+
+    /* .main-nav{
+        margin-top: -40%;
+        width: 100%;
+    } */
+
+    .hero-text-box{
+        font-size: 160%;
+    }
+    .banner-img{
+        bottom: 40%;
+    }
+
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .col-para{
+        font-size: 70%;
+    }
+    .short-copy{font-size: 160%;}
+    h2{margin-top: 50px;}
+
+    .whole-about{
+        padding-top: 90px;
+    }
+    .about-img-1{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .about-img-2{
+        width: 50%;
+    }
+    .over-para{
+        display: none;
+    }
+    .square{
+        display: none;
+    }
+    .about-text-box{
+        width: 90%;
+        margin-left: 20px;
+         margin-right: 10px; 
+        margin-right: 0;
+        margin-bottom: 40px;
+        float: right;
+    }
+
+    .work-text-box{font-size: 60%;
+        text-align: justify;
+        margin-left: 30px;
+       /* width: 100%; */
+    }
+    .work-text-box-2{font-size: 60%;
+        text-align: justify;
+        margin-right: 40px;
+    }
+    /* .work-img{width: 50%;
+        margin-left: 20px;
+    }
+    .work-img-2{width: 50%;
+        
+    } */
+
+    .work-img{width: 60%; margin-top: -4%; margin-bottom: 20px;}
+    .work-img-2{width: 60%; margin-bottom: 50px;}
+
+    .staff-icons{
+        font-size: 200%;
+    }
+    .staff-features{
+        font-size: 200%;
+    }
+
+    .staff-features span{
+        font-size: 36%;
+        margin-right: 40px;
+    }
+
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row{ padding: 0 4%; }
+    .hero-text-box{display: none;}
+    .banner-img{left: 19%; width: 60%; bottom: 30%;}
+    .overlay-img{width: 20%;}
+
+    .col-para{font-size: 90%;}
+
+    .work-text-box{font-size: 45%;}
+    .work-text-box-2{font-size: 45%;}
+    .work-img{width: 60%; margin-top: -4%; margin-bottom: 20px;}
+    .work-img-2{width: 60%; margin-bottom: 50px;}
+
+    /* .staff-features{display: none;} */
+    .staff-features span{margin-right: 70px;}
+    .staff-icons{font-size: 150%; display: inline-block;}
+    .staff-box{width: 80%; margin-top: 100px; margin-left: 30px;}
+    .staff-col img{width: 90%; margin-left: 10px;}
+
+    .story-box{width: 80%; margin-left: 40px;}
+
+    .para-footer-1,
+    .para-footer-2,
+    .para-footer{width: 85%;margin-left: 20px;}
+    #name{width: 80%;margin-left: 20px;}
+    .social-logos{margin-left: 20px;}
+    .logo-footer{margin-left: 20px;}
+
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    
+    
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    
+    .main-nav li {
+        display: block;
+    }
+    
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen { width: 40%; }
+    .steps-box:first-child { text-align: center; }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+    
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+
+    .logo{width: 50%;}
+    
+
+   
+    .btn:link,
+    .btn:visited{
+        padding: 15px 15px;
+    }
+   
+
+    .logo-footer{margin-left:0; width: 50%;}
+    .about-img-2{
+        left: 40px;
+        top: -10px;
+    }
+
+    .story-para-1{font-size: 65%;}
+    .story-para-1,
+    .story-para-2,
+    .story-para-3{margin-left: 10px;}
+
+    .col-para{font-size: 70%;}
+
+    .work-text-box{font-size: 20%;margin-left: 5px;}
+    .work-text-box-2{display: none;}
+    .work-img{width: 60%; margin-top: -4%; margin-bottom: 20px;}
+    .work-img-2{width: 60%; margin-bottom: 50px;}
+
+    .about-para-1,
+    .about-para-2,
+    .about-para-3{margin-bottom: 20px;}
+
+    .about-para-1{font-size: 150%;}
+
+    /* .staff-features{display: none;} */
+    .staff-features span{margin-right: 40px;}
+    .staff-icons{font-size: 150%; display: inline-block;}
+    .staff-box{width: 80%; margin-top: 100px; margin-left: 10px;}
+    .staff-col img{width: 90%; margin-left: 5px;}
+
+    .story-box{width: 70%; margin-left: 20px;}
+
+    .para-footer-1,
+    .para-footer-2,
+    .para-footer{width: 70%;margin-left: 0;}
+    #name{width: 100%;margin-left: 0;}
+    .social-logos{margin-left: 0;}
+    
+
+}
+
